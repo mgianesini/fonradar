@@ -428,7 +428,7 @@ function renderRadarLegends(radarElement, hasMovements) {
   if (hasMovements) {
     legendsContainer.html(`${newImage} New ${movedImage} Moved in/out ${noChangeImage} No change`)
   } else {
-    legendsContainer.html(`${newImage} New ${existingImage} Existing`)
+    legendsContainer.html(`${newImage} High Relevance ${existingImage} Low Relevance`)
   }
 }
 
